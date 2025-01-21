@@ -6,10 +6,10 @@ with open("requirements.txt") as f:
 
 setup(
     name="srtranslator-bariskeser",
-    description="Traslate a .SRT file using any with custom translator",
+    description="Özel bir çevirmen kullanarak bir .SRT dosyasını çevirin",
     long_description=Path("README.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
-    url="https://github.com/barkeser2002/SRTranslator",
+    url="https://github.com/barkeser2002/srtranslator-bariskeser",
     version="0.0.1",
     author="bariskeser2002",
     author_email="info@bariskeser.com",
@@ -17,5 +17,5 @@ setup(
     python_requires=">=3.6",
     install_requires=requirements,
     packages=find_packages(),
-    keywords=["python", "srt", "languages", "translator", "subtitles"],
+    keywords=["python", "srt", "diller", "çevirmen", "altyazılar"],
 )

@@ -1,14 +1,14 @@
-        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+        CANINIZ NE İSTERSE YAPIN KAMU LİSANSI
+                    Sürüm 2, Aralık 2004
 
-Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+Telif Hakkı (C) 2004 Sam Hocevar <sam@hocevar.net>
 
-Everyone is permitted to copy and distribute verbatim or modified
-copies of this license document, and changing it is allowed as long
-as the name is changed.
+Herkes bu lisans belgesinin birebir veya değiştirilmiş kopyalarını
+kopyalamak ve dağıtmakta serbesttir ve ismi değiştirildiği sürece
+değiştirilmesine izin verilir.
 
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+            CANINIZ NE İSTERSE YAPIN KAMU LİSANSI
 
-TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+KOPYALAMA, DAĞITIM VE DEĞİŞTİRME ŞARTLARI
 
-0. You just DO WHAT THE FUCK YOU WANT TO.
+0. Sadece CANINIZ NE İSTERSE YAPIN.
