@@ -9,6 +9,7 @@ from .translators.deepl_api import DeeplApi
 from .translators.deepl_scrap import DeeplTranslator
 from .translators.translatepy import TranslatePy
 from .translators.pydeeplx import PyDeepLX
+from .translators.deeplx import DeepLX
 
 parser = argparse.ArgumentParser(description="Translate an .STR and .ASS file")
 
@@ -73,7 +74,7 @@ parser.add_argument(
     "-t",
     "--translator",
     type=str,
-    choices=["deepl-scrap", "translatepy", "deepl-api", "pydeeplx"],
+    choices=["deepl-scrap", "translatepy", "deepl-api", "pydeeplx", "deeplx"],
     help="Built-in translator to use",
     default="deepl-scrap",
 )
@@ -95,6 +96,7 @@ builtin_translators = {
     "deepl-api": DeeplApi,
     "translatepy": TranslatePy,
     "pydeeplx": PyDeepLX,
+    "deeplx": DeepLX,
 }
 
 args = parser.parse_args()
