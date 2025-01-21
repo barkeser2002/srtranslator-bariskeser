@@ -7,7 +7,7 @@ class DeepLX(Translator):
     max_char = 1500
 
     def translate(self, text: str, source_language: str, destination_language: str):
-        deeplx_api = "http://node-kyb.bariskeser.com:1188/v1/translate"
+        deeplx_api = "http://node-kyb.bariskeser.com:1188/translate"
         data = {
         	"text": text,
         	"source_lang": source_language,
@@ -15,4 +15,4 @@ class DeepLX(Translator):
         }
         post_data = json.dumps(data)
         result = httpx.post(url = deeplx_api, data = post_data).text
-        return result.text
+        return result
