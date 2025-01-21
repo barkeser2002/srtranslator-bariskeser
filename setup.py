@@ -10,7 +10,7 @@ setup(
     long_description=Path("README.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
     url="https://github.com/barkeser2002/srtranslator-bariskeser",
-    version="0.0.3",
+    version="0.0.4",
     author="bariskeser2002",
     author_email="info@bariskeser.com",
     license="FREE",
