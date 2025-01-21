@@ -2,16 +2,11 @@
 
 ## Install
 
-[PyPI](https://pypi.org/project/srtranslator/)
+[PyPI](https://pypi.org/project/srtranslator-bariskeser/)
 
 ```bash
-pip install srtranslator
+pip install srtranslator-bariskeser
 ```
-
-## Usage in Blender
-
-[tin2tin](https://github.com/tin2tin) has made this [blender addon](https://github.com/tin2tin/import_subtitles). Check it out.
-
 ## Usage from script
 
 Import stuff
@@ -60,34 +55,6 @@ Quit translator
 ```python
 translator.quit()
 ```
-
-## Usage from GUI
-
-Since release V0.3.9 there is a new GUI powered by flet (a python-flutter framework) on folder ./GUI
-
-![image](./GUI/assets/screen_shot.png)
-
-There is an artifact for linux and windows in the lastest github actions run.
-
-#### Package from source
-
-if you prefer to pack your own you could go to GUI folder, install the requirements and run `flet pack main.py` and copy assets folder
-
-```
-cd ./GUI
-pip install -r requirements.txt
-pip install pyinstaller
-flet pack main.py
-cp -r ./assets ./dist/assets
-```
-
-Binaries found in `dist` folder
-
-#### Alternatives
-
-[KryptoST](https://github.com/KryptoST) has made a graphical user interface. You can check it out [here](https://github.com/KryptoST/SRTranslatorGUI)
-
-## Usage command line
 
 ```bash
 # SRT file
